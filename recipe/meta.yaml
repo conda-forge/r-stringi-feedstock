@@ -1,4 +1,4 @@
-{% set version = '1.1.6' %}
+{% set version = "1.1.7" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/stringi_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/stringi/stringi_{{ version }}.tar.gz
-  sha256: 9590360b96627b18d7bed273deedabda4283dbae7d41c0a0ba78a58e6aa95188
+  sha256: b475a8549fbaf8ee0e625a7cead9b3b478cd73864c785582cdb3d217850e9359
 
 build:
   number: 0
