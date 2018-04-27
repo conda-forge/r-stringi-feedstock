@@ -15,7 +15,7 @@ source:
   sha256: b475a8549fbaf8ee0e625a7cead9b3b478cd73864c785582cdb3d217850e9359
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -31,6 +31,7 @@ requirements:
   run:
     - r-base
     - libgcc  # [not win]
+    - icu 54.*  # [not win]
 
 test:
   commands:
