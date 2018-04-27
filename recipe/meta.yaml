@@ -31,7 +31,7 @@ requirements:
   run:
     - r-base
     - libgcc  # [not win]
-    - icu 54.*  # [not win]
+    - icu 58.*  # [not win]
 
 test:
   commands:
