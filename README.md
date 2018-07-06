@@ -14,14 +14,16 @@ Summary: Allows for fast, correct, consistent, portable, as well as convenient c
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-stringi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-stringi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-stringi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-stringi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-stringi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-stringi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-stringi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-stringi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-stringi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-stringi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-stringi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-stringi-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-stringi/badges/version.svg)](https://anaconda.org/conda-forge/r-stringi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-stringi/badges/downloads.svg)](https://anaconda.org/conda-forge/r-stringi)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--stringi-green.svg)](https://anaconda.org/conda-forge/r-stringi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-stringi.svg)](https://anaconda.org/conda-forge/r-stringi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-stringi.svg)](https://anaconda.org/conda-forge/r-stringi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-stringi.svg)](https://anaconda.org/conda-forge/r-stringi) |
 
 Installing r-stringi
 ====================
