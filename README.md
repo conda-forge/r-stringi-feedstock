@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About r-stringi
 ===============
 
@@ -7,7 +11,7 @@ Package license: FOSS
 
 Feedstock license: BSD 3-Clause
 
-Summary: Allows for fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the 'ICU' library, the package provides 'R' users with platform-independent functions known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available features include: pattern searching (e.g., with 'Java'-like regular expressions or the 'Unicode' collation algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, and many more.
+Summary: Fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the 'ICU' (International Components for Unicode) library, the package provides 'R' users with platform-independent functions known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available features include: pattern searching (e.g., with 'Java'-like regular expressions or the 'Unicode' collation algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, and many more.
 
 
 
@@ -49,6 +53,8 @@ conda search r-stringi --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +110,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@mariusvniekerk](https://github.com/mariusvniekerk/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+
