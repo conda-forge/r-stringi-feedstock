@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
@@ -37,9 +37,12 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
+    - icu         # [unix]
+    - m2w64-icu   # [win]
   run:
     - r-base
-    - {{native}}icu
+    - icu         # [unix]
+    - m2w64-icu   # [win]
     - {{native}}gcc-libs         # [win]
 
 test:
