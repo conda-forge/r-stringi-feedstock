@@ -37,6 +37,7 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
+    - {{native}}icu
   run:
     - r-base
     - {{native}}icu
