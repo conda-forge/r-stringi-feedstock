@@ -37,10 +37,12 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
-    - {{native}}icu
+    - icu         # [unix]
+    - m2w64-icu   # [win]
   run:
     - r-base
-    - {{native}}icu
+    - icu         # [unix]
+    - m2w64-icu   # [win]
     - {{native}}gcc-libs         # [win]
 
 test:
