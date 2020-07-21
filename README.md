@@ -5,7 +5,7 @@ Home: http://www.gagolewski.com/software/stringi/ http://site.icu-project.org/ h
 
 Package license: FOSS
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the 'ICU' (International Components for Unicode) library, the package provides 'R' users with platform-independent functions known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available features include: pattern searching (e.g., with 'Java'-like regular expressions or the 'Unicode' collation algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, and many more.
 
