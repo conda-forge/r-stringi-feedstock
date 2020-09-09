@@ -1,4 +1,4 @@
-{% set version = "1.4.6" %}
+{% set version = "1.5.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stringi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stringi/stringi_{{ version }}.tar.gz
-  sha256: 633f67da5bd7bcb611764e4f478b0da050d22a715bbcbdd67aed0300dcef6fd6
+  sha256: 224f1e8dedc962a676bc2e1f53016f6a129a0a38aa0f35daf6dece62ff714010
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -54,14 +54,8 @@ about:
   home: http://www.gagolewski.com/software/stringi/ http://site.icu-project.org/ http://www.unicode.org/
   license: FOSS
   license_file: LICENSE
-  summary: 'Fast, correct, consistent, portable, as well as convenient character string/text
-    processing in every locale and any native encoding. Owing to the use of the ''ICU''
-    (International Components for Unicode) library, the package provides ''R'' users
-    with platform-independent functions known to ''Java'', ''Perl'', ''Python'', ''PHP'',
-    and ''Ruby'' programmers. Available features include: pattern searching (e.g., with
-    ''Java''-like regular expressions or the ''Unicode'' collation algorithm), random
-    string generation, case mapping, string transliteration, concatenation, Unicode
-    normalization, date-time formatting and parsing, and many more.'
+  summary: "Fast, correct, consistent, portable, as well as convenient character string/text processing in every locale and any native encoding. Owing to the use of the 'ICU' (International Components for Unicode) library, the package provides 'R' users with platform-independent functions known to 'Java', 'Perl', 'Python',\
+    \ 'PHP', and 'Ruby' programmers. Available features include: pattern searching (e.g., with 'Java'-like regular expressions or the 'Unicode' collation algorithm), random string generation, case mapping, string transliteration, concatenation, Unicode normalization, date-time formatting and parsing, and many more."
   license_family: OTHER
 
 extra:
