@@ -1,4 +1,4 @@
-{% set version = "1.8.2" %}
+{% set version = "1.8.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stringi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stringi/stringi_{{ version }}.tar.gz
-  sha256: 6ad0223037ab7c540c0046b6f53e7bba0bde1221eac814db9d1766405feaa72d
+  sha256: 1602be8edd1dd8ac5a836f4077cbc9d6a312ca4b2c594a0486370e8c1e314925
 
 build:
   merge_build_host: true  # [win]
