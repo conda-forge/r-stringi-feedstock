@@ -38,7 +38,8 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - icu
+    # Windows builds use bundled ICU.
+    - icu  # [not win]
   run:
     - r-base
 
