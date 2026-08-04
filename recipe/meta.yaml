@@ -1,4 +1,4 @@
-{% set version = "1.8.7" %}
+{% set version = "1.8.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/stringi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/stringi/stringi_{{ version }}.tar.gz
-  sha256: 0526decdcd41b7c42278aca96945394c2cb66ba6fdd47fd917b5d3d38ed5c8c6
+  sha256: 427fcebd281d7ea850becce75e0807576dd394a723a814b2d487419b93275a33
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
